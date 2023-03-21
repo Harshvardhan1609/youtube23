@@ -20,48 +20,44 @@ function Home() {
       <div className="features">
         <div className="container">
           <div className="item">
-            <h1>A whole world of freelance talent at your fingertips</h1>
+            <h1>Insights are Born when  brilliant minds come on excillent platform</h1>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              The best for every budget
+              Insights for your upcomming new Projects
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates,
-              just project-based pricing.
+              Here we provide basic insights which can act as an roadmap in your next creation
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              Quality work done quickly
+              Showcase your Projects to enhance your profile
             </div>
             <p>
-              Find the right freelancer to begin working on your project within
-              minutes.
+              Here you can showcase your projects so that organization can identify your skills and insights
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              Protected payments, every time
+              Help the Community of Projects to boost your profile
             </div>
             <p>
-              Always know what you'll pay upfront. Your payment isn't released
-              until you approve the work.
+              Ratings play a important role in your projects to help project to improve
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              24/7 support
+              Get Hired on the basis of Work
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates,
-              just project-based pricing.
+              On the basis of portfolio on Insight Army get hired by the companies
             </p>
           </div>
           <div className="item">
-            <video src="./img/video.mp4" controls />
+            <video src="https://youtu.be/70sK3VDdV9o" controls />
           </div>
         </div>
       </div>
       <div className="explore">
         <div className="container">
-          <h1>Explore the marketplace</h1>
+          <h1>Explore the insights</h1>
           <div className="items">
             <div className="item">
               <img
@@ -147,11 +143,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="features dark">
+      {/* <div className="features dark">
         <div className="container">
           <div className="item">
             <h1>
-              liverr <i>business</i>
+              Insight Army <i>business</i>
             </h1>
             <h1>
               A business solution designed for <i>teams</i>
@@ -183,12 +179,12 @@ function Home() {
             />
           </div>
         </div>
-      </div>
-      <Slide slidesToShow={4} arrowsScroll={4}>
+      </div> */}
+      {/* <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => (
           <ProjectCard key={card.id} card={card} />
         ))}
-      </Slide>
+      </Slide> */}
     </div>
   );
 }
